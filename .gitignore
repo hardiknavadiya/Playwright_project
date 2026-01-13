@@ -1,9 +1,40 @@
-
 # Playwright
+*.log
+logs/
+# Logs
+
+Thumbs.db
+.DS_Store
+# OS
+
+*~
+*.swo
+*.swp
+.vscode/
+.idea/
+# IDE
+
+.env.*.local
+.env.local
+.env
+# Environment files
+
+yarn-error.log*
+yarn-debug.log*
+npm-debug.log*
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
+# Node
+
+!docs/**/*.png
+*.mp4
+*.png
+# Screenshots and videos
+
+/playwright-profile/
+/chrome-automation-profile/
+# Browser profiles (contains user data - should not be committed)
+
 /playwright/.cache/
-/playwright/.auth/
-/chrome-user-data/
+/playwright-report/
+/test-results/
+
